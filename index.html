@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Vertoni - Engenheiro de Software</title>
+    <style>
+      /* Reset e Definições ABNT-like */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: #e0e0e0;
+        font-size: 11pt; /* Tamanho padrão para documentos técnicos */
+      }
+
+      .container {
+        max-width: 210mm; /* Tamanho A4 */
+        margin: 20px auto;
+        background: #fff;
+        padding: 2.5cm 2cm 2.5cm 3cm; /* Margens ABNT: Esquerda 3, Topo 2.5, Direita 2, Base 2.5 */
+        min-height: 297mm;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+        .container {
+          margin: 0;
+          box-shadow: none;
+          width: 100%;
+          padding: 2.5cm 2cm 2.5cm 3cm;
+        }
+      }
+
+      /* Cabeçalho */
+      .header {
+        text-align: center;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+      }
+
+      .header h1 {
+        font-size: 22pt;
+        font-weight: 700;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .header .title {
+        font-size: 13pt;
+        color: #444;
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+
+      .contact {
+        font-size: 10pt;
+        color: #555;
+      }
+
+      .contact a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      /* Seções */
+      .section {
+        margin-bottom: 20px;
+      }
+
+      .section-title {
+        font-size: 11pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 1.5px solid #000;
+        margin-bottom: 10px;
+        padding-bottom: 3px;
+        display: block;
+      }
+
+      .summary {
+        text-align: justify;
+        hyphens: auto;
+      }
+
+      /* Lista de Habilidades */
+      .skill-category {
+        margin-bottom: 6px;
+        text-align: justify;
+      }
+
+      /* Experiência e Educação */
+      .exp-item {
+        margin-bottom: 15px;
+      }
+
+      .exp-header {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+      }
+
+      .exp-sub {
+        display: flex;
+        justify-content: space-between;
+        font-style: italic;
+        margin-bottom: 5px;
+        color: #333;
+      }
+
+      ul {
+        margin-left: 20px;
+        list-style-type: square;
+      }
+
+      li {
+        margin-bottom: 4px;
+      }
+
+      .edu-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>GABRIEL VERTONI</h1>
+        <div class="title">Engenheiro de Software Junior</div>
+        <div class="contact">
+          <a href="mailto:gabrielvertoni730@gmail.com"
+            >gabrielvertoni730@gmail.com</a
+          >
+          |
+          <a href="https://github.com/VertoniGabriel"
+            >github.com/VertoniGabriel</a
+          >
+          |
+          <a href="https://linkedin.com/in/gabrielvertoni"
+            >linkedin.com/in/gabrielvertoni</a
+          >
+        </div>
+      </header>
+
+      <section class="section">
+        <h2 class="section-title">Resumo Profissional</h2>
+        <p class="summary">
+          Desenvolvedor de Software em formação pela
+          <strong>Jala University</strong>, focado em <strong>Java</strong> e
+          fundamentos de engenharia. Proficiência em
+          <strong>lógica proposicional</strong> e resolução de problemas
+          complexos. Experiência com ferramentas de versionamento e metodologias
+          de estudo voltadas para o desenvolvimento de sistemas robustos.
+          Familiaridade com conceitos de <strong>Clean Code</strong> e
+          desenvolvimento orientado a objetos.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skill-category">
+          <strong>Linguagens & Backend:</strong> Java (JVM, POO), Estruturas de
+          Dados e Algoritmos.
+        </div>
+        <div class="skill-category">
+          <strong>Lógica & Engenharia:</strong> Lógica Proposicional, Tabelas
+          Verdade, Clean Code e Metodologias Ágeis.
+        </div>
+        <div class="skill-category">
+          <strong>Ferramentas:</strong> Git/GitHub, VS Code, IntelliJ IDEA,
+          Terminal/CLI.
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Experiência Profissional</h2>
+        <div class="exp-item">
+          <div class="exp-header">
+            <span>BEROLAB</span>
+            <span>Fev 2026 – Presente</span>
+          </div>
+          <div class="exp-sub">Estagiário de Desenvolvimento Back-End</div>
+          <ul>
+            <li>
+              Desenvolvimento de sistemas server-side em
+              <strong>Java</strong> com foco em escalabilidade.
+            </li>
+            <li>
+              Conquista da <strong>Vitória na Season 3</strong> interna,
+              destacando-se em performance e resiliência.
+            </li>
+            <li>
+              Colaboração em projetos ágeis e resolução de problemas lógicos
+              complexos.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Educação & Certificações</h2>
+        <div class="edu-item">
+          <strong>Engenharia de Software</strong>
+          <span>Jala University | 2026 - Presente</span>
+        </div>
+        <div class="edu-item">
+          <strong>Lógica de Programação</strong>
+          <span>Curso em Vídeo | Concluído</span>
+        </div>
+        <div class="edu-item">
+          <strong>Java 10x (Treinamento Avançado)</strong>
+          <span>Em andamento</span>
+        </div>
+        <div style="margin-top: 10px; font-size: 10pt">
+          <strong>Idiomas:</strong> Português (Nativo), Inglês (Em
+          desenvolvimento).
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
