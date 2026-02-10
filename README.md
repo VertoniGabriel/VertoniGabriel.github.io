@@ -1,1 +1,0 @@
-# VertoniGabriel.github.io
