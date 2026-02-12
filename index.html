@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Vertoni - Engenheiro de Software</title>
+    <title>Gabriel Vertoni - Software Engineer</title>
     <style>
       /* Reset e Definições ABNT-like */
       * {
@@ -17,22 +17,20 @@
         line-height: 1.6;
         color: #1a1a1a;
         background: #e0e0e0;
-        font-size: 11pt; /* Tamanho padrão para documentos técnicos */
+        font-size: 11pt;
       }
 
       .container {
-        max-width: 210mm; /* Tamanho A4 */
+        max-width: 210mm;
         margin: 20px auto;
         background: #fff;
-        padding: 2.5cm 2cm 2.5cm 3cm; /* Margens ABNT: Esquerda 3, Topo 2.5, Direita 2, Base 2.5 */
+        padding: 2.5cm 2cm 2.5cm 3cm;
         min-height: 297mm;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
 
       @media print {
-        body {
-          background: #fff;
-        }
+        body { background: #fff; }
         .container {
           margin: 0;
           box-shadow: none;
@@ -41,7 +39,6 @@
         }
       }
 
-      /* Cabeçalho */
       .header {
         text-align: center;
         margin-bottom: 25px;
@@ -73,7 +70,6 @@
         text-decoration: none;
       }
 
-      /* Seções */
       .section {
         margin-bottom: 20px;
       }
@@ -93,29 +89,22 @@
         hyphens: auto;
       }
 
-      /* Lista de Habilidades */
       .skill-category {
         margin-bottom: 6px;
         text-align: justify;
       }
 
-      /* Experiência e Educação */
       .exp-item {
         margin-bottom: 15px;
       }
 
-      .exp-header {
-        display: flex;
-        justify-content: space-between;
+      .exp-header-single {
         font-weight: bold;
-      }
-
-      .exp-sub {
+        margin-bottom: 8px;
+        border-bottom: 1px dashed #ccc;
+        padding-bottom: 4px;
         display: flex;
         justify-content: space-between;
-        font-style: italic;
-        margin-bottom: 5px;
-        color: #333;
       }
 
       ul {
@@ -124,13 +113,23 @@
       }
 
       li {
-        margin-bottom: 4px;
+        margin-bottom: 8px;
+        text-align: justify;
       }
 
       .edu-item {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 6px;
+        margin-bottom: 2px;
+        font-weight: bold;
+      }
+
+      .edu-desc {
+        font-size: 10pt;
+        color: #444;
+        margin-bottom: 10px;
+        font-style: italic;
+        padding-left: 5px;
       }
     </style>
   </head>
@@ -138,72 +137,54 @@
     <div class="container">
       <header class="header">
         <h1>GABRIEL VERTONI</h1>
-        <div class="title">Engenheiro de Software Junior</div>
+        <div class="title">Engenheiro de Software Junior | Back-End Java</div>
         <div class="contact">
-          <a href="mailto:gabrielvertoni730@gmail.com"
-            >gabrielvertoni730@gmail.com</a
-          >
-          |
-          <a href="https://github.com/VertoniGabriel"
-            >github.com/VertoniGabriel</a
-          >
-          |
-          <a href="https://linkedin.com/in/gabrielvertoni"
-            >linkedin.com/in/gabrielvertoni</a
-          >
+          Piracicaba, SP (Disponível para Remoto/Híbrido) <br>
+          <a href="mailto:gabrielvertoni730@gmail.com">gabrielvertoni730@gmail.com</a> |
+          <a href="https://github.com/VertoniGabriel">github.com/VertoniGabriel</a> |
+          <a href="https://linkedin.com/in/gabrielvertoni">linkedin.com/in/gabrielvertoni</a>
         </div>
       </header>
 
       <section class="section">
         <h2 class="section-title">Resumo Profissional</h2>
         <p class="summary">
-          Desenvolvedor de Software em formação pela
-          <strong>Jala University</strong>, focado em <strong>Java</strong> e
-          fundamentos de engenharia. Proficiência em
-          <strong>lógica proposicional</strong> e resolução de problemas
-          complexos. Experiência com ferramentas de versionamento e metodologias
-          de estudo voltadas para o desenvolvimento de sistemas robustos.
-          Familiaridade com conceitos de <strong>Clean Code</strong> e
-          desenvolvimento orientado a objetos.
+          Engenheiro de Software focado em desenvolvimento <strong>Back-End Java</strong> e na construção de sistemas robustos e <strong>escaláveis</strong>. Experiência na aplicação de conceitos de <strong>Arquitetura de Microserviços</strong>, manutenção de <strong>Clean Code</strong> e garantia de <strong>rastreabilidade</strong> de código. Profissional com histórico de alta performance e resiliência técnica, habituado a trabalhar com metodologias ágeis em ambientes de entrega contínua.
         </p>
       </section>
 
       <section class="section">
         <h2 class="section-title">Habilidades Técnicas</h2>
         <div class="skill-category">
-          <strong>Linguagens & Backend:</strong> Java (JVM, POO), Estruturas de
-          Dados e Algoritmos.
+          <strong>Backend:</strong> Java (JVM, POO), Spring Boot, Microserviços, Estruturas de Dados e Algoritmos.
         </div>
         <div class="skill-category">
-          <strong>Lógica & Engenharia:</strong> Lógica Proposicional, Tabelas
-          Verdade, Clean Code e Metodologias Ágeis.
+          <strong>Bancos de Dados & Qualidade:</strong> Otimização de consultas, SQL, Git/GitHub (Versionamento e Rastreabilidade) e Clean Code.
         </div>
         <div class="skill-category">
-          <strong>Ferramentas:</strong> Git/GitHub, VS Code, IntelliJ IDEA,
-          Terminal/CLI.
+          <strong>Processos:</strong> Metodologias Ágeis (Scrum), Definição de Histórias e Estimativas Técnicas.
         </div>
       </section>
 
       <section class="section">
         <h2 class="section-title">Experiência Profissional</h2>
         <div class="exp-item">
-          <div class="exp-header">
-            <span>BEROLAB</span>
+          <div class="exp-header-single">
+            <span>BEROLAB | Estagiário de Desenvolvimento Back-End</span>
             <span>Fev 2026 – Presente</span>
           </div>
-          <div class="exp-sub">Estagiário de Desenvolvimento Back-End</div>
           <ul>
             <li>
-              Desenvolvimento de sistemas server-side em
-              <strong>Java</strong> com foco em escalabilidade.
+              <strong>Desenvolvimento Back-End:</strong> Atuação no ciclo de vida de APIs utilizando <strong>Java e Spring Boot</strong>, focando na arquitetura de <strong>microserviços</strong> para suportar alta carga de usuários.
             </li>
             <li>
-              Conquista da <strong>Vitória na Season 3</strong> interna,
-              destacando-se em performance e resiliência.
+              <strong>Performance Premiada:</strong> Vencedor da <strong>Season 3</strong> (Programa de Reconhecimento Interno), destacando-se pela resiliência técnica e agilidade na entrega de funcionalidades críticas sob pressão.
             </li>
             <li>
-              Colaboração em projetos ágeis e resolução de problemas lógicos
-              complexos.
+              <strong>Resolução de Problemas:</strong> Otimização de consultas em bancos de dados e depuração de bugs complexos, reduzindo o tempo de resposta de endpoints específicos em <strong>[X]%</strong>.
+            </li>
+            <li>
+              <strong>Metodologias Ágeis:</strong> Participação ativa em cerimônias de <strong>Scrum</strong>, contribuindo para a definição de histórias de usuário e estimativas de esforço técnico.
             </li>
           </ul>
         </div>
@@ -211,21 +192,27 @@
 
       <section class="section">
         <h2 class="section-title">Educação & Certificações</h2>
+        
         <div class="edu-item">
-          <strong>Engenharia de Software</strong>
-          <span>Jala University | 2026 - Presente</span>
+          <span>Bacharelado em Engenharia de Software</span>
+          <span>2026 - Presente</span>
         </div>
+        <p class="edu-desc">Jala University: Foco em desenvolvimento de alta performance e engenharia de software aplicada.</p>
+
         <div class="edu-item">
-          <strong>Lógica de Programação</strong>
-          <span>Curso em Vídeo | Concluído</span>
-        </div>
-        <div class="edu-item">
-          <strong>Java 10x (Treinamento Avançado)</strong>
+          <span>Formação Java 10x</span>
           <span>Em andamento</span>
         </div>
-        <div style="margin-top: 10px; font-size: 10pt">
-          <strong>Idiomas:</strong> Português (Nativo), Inglês (Em
-          desenvolvimento).
+        <p class="edu-desc">Treinamento avançado: Foco em Spring Boot, APIs REST e Persistência de Dados.</p>
+
+        <div class="edu-item">
+          <span>Lógica de Programação</span>
+          <span>Concluído</span>
+        </div>
+        <p class="edu-desc">Curso em Vídeo: Sólidos fundamentos de algoritmos e pensamento lógico.</p>
+
+        <div style="margin-top: 15px; font-size: 10pt">
+          <strong>Idiomas:</strong> Português (Nativo), Inglês (Técnico em desenvolvimento).
         </div>
       </section>
     </div>
